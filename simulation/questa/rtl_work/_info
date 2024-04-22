@@ -1,0 +1,170 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/ratas/apps/Shazam/simulation/questa
+T_opt
+!s110 1713717269
+V2lFIO;W[]U[WHTW::9J;a3
+04 16 4 work shazam_testbench fast 0
+=1-a8a15995788a-66254014-3b7-5890
+R0
+!s12b OEM100
+!s124 OEM10U58 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -L adc_core +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+vadc_measurements_into_ram_controller
+Z3 2C:/Users/ratas/apps/Shazam/main.v
+Z4 !s110 1713717267
+!i10b 1
+!s100 6d<6VJGhUEPHDm`<;WVf31
+IzkoG=iLLBn4W?j8RRX0>h2
+R1
+w1713709099
+8C:/Users/ratas/apps/Shazam/controllers/adc_measurements_into_ram_controller.v
+FC:/Users/ratas/apps/Shazam/controllers/adc_measurements_into_ram_controller.v
+!i122 3
+L0 1 31
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2023.3;77
+r1
+!s85 0
+31
+Z7 !s108 1713717267.000000
+Z8 !s107 C:/Users/ratas/apps/Shazam/controllers/adc_measurements_into_ram_controller.v|C:/Users/ratas/apps/Shazam/main.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ratas/apps/Shazam|C:/Users/ratas/apps/Shazam/main.v|
+!i113 0
+Z10 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 -vlog01compat -work work +incdir+C:/Users/ratas/apps/Shazam -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vclk_pll
+2C:/Users/ratas/apps/Shazam/clk_pll/clk_pll.v
+R4
+!i10b 1
+!s100 j7f^NJjPoQ50F5n;J72oH2
+IZ=hzMYo]:b_=aRCMJL2^Z1
+R1
+w1713710364
+8C:/Users/ratas/apps/Shazam/clk_pll/clk_pll.v
+FC:/Users/ratas/apps/Shazam/clk_pll/clk_pll.v
+!i122 1
+L0 40 124
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/ratas/apps/Shazam/clk_pll/clk_pll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ratas/apps/Shazam/clk_pll|C:/Users/ratas/apps/Shazam/clk_pll/clk_pll.v|
+!i113 0
+R10
+!s92 -vlog01compat -work work +incdir+C:/Users/ratas/apps/Shazam/clk_pll -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vclk_pll_altpll
+2C:/Users/ratas/apps/Shazam/db/clk_pll_altpll.v
+R4
+!i10b 1
+!s100 CWTRfnQBUeCTM<FzRZ=?I2
+Im8BXK5;Q44XJ[gAe0XLN93
+R1
+w1713710466
+8C:/Users/ratas/apps/Shazam/db/clk_pll_altpll.v
+FC:/Users/ratas/apps/Shazam/db/clk_pll_altpll.v
+!i122 2
+L0 31 79
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/ratas/apps/Shazam/db/clk_pll_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ratas/apps/Shazam/db|C:/Users/ratas/apps/Shazam/db/clk_pll_altpll.v|
+!i113 0
+R10
+!s92 -vlog01compat -work work +incdir+C:/Users/ratas/apps/Shazam/db -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vram
+2C:/Users/ratas/apps/Shazam/ram/ram.v
+R4
+!i10b 1
+!s100 0?Hl_Z]`e5d>YViaR[DL?3
+I[Q1ZYkGhmPKPkmBk2<3YD2
+R1
+w1713641872
+8C:/Users/ratas/apps/Shazam/ram/ram.v
+FC:/Users/ratas/apps/Shazam/ram/ram.v
+!i122 0
+L0 40 65
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/ratas/apps/Shazam/ram/ram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ratas/apps/Shazam/ram|C:/Users/ratas/apps/Shazam/ram/ram.v|
+!i113 0
+R10
+!s92 -vlog01compat -work work +incdir+C:/Users/ratas/apps/Shazam/ram -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vShazam
+R3
+R4
+!i10b 1
+!s100 TmI9[flLj4;zhC@JQ;?zB2
+IhF57Lk[OQKcH@WzgdFodH0
+R1
+w1713710892
+8C:/Users/ratas/apps/Shazam/main.v
+FC:/Users/ratas/apps/Shazam/main.v
+!i122 3
+L0 3 44
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R2
+n@shazam
+vshazam_testbench
+2C:/Users/ratas/apps/Shazam/simulation/questa/shazam.testbench.v
+!s110 1713717268
+!i10b 1
+!s100 MJLK@`Zaz00V3:<Ua1aJl3
+IZLBCih=1H1m6RiO?eGXH52
+R1
+w1713710451
+8C:/Users/ratas/apps/Shazam/simulation/questa/shazam.testbench.v
+FC:/Users/ratas/apps/Shazam/simulation/questa/shazam.testbench.v
+!i122 4
+L0 3 26
+R5
+R6
+r1
+!s85 0
+31
+!s108 1713717268.000000
+!s107 C:/Users/ratas/apps/Shazam/simulation/questa/shazam.testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ratas/apps/Shazam/simulation/questa|C:/Users/ratas/apps/Shazam/simulation/questa/shazam.testbench.v|
+!i113 0
+R10
+!s92 -vlog01compat -work work +incdir+C:/Users/ratas/apps/Shazam/simulation/questa -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
