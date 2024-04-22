@@ -1,12 +1,12 @@
-# system info adc_core on 2024.04.21.13:56:10
+# system info adc_core on 2024.04.22.18:27:28
 system_info:
 name,value
 DEVICE,10M50DAF484C6GES
 DEVICE_FAMILY,MAX 10
-GENERATION_ID,1713696967
+GENERATION_ID,1713799636
 #
 #
-# Files generated for adc_core on 2024.04.21.13:56:10
+# Files generated for adc_core on 2024.04.22.18:27:28
 files:
 filepath,kind,attributes,module,is_top
 simulation/adc_core.v,VERILOG,,adc_core,true

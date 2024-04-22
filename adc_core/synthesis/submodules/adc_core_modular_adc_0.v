@@ -79,7 +79,7 @@ module adc_core_modular_adc_0 #(
 		.dual_adc_mode                   (0),
 		.enable_usr_sim                  (1),
 		.reference_voltage_sim           (49648),
-		.simfilename_ch0                 ("C:/Users/ratas/apps/Shazam/adc-simulation-measurements.txt"),
+		.simfilename_ch0                 ("C:/Users/makar/apps/Shazam/adc-simulation-measurements.txt"),
 		.simfilename_ch1                 (""),
 		.simfilename_ch2                 (""),
 		.simfilename_ch3                 (""),

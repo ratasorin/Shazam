@@ -6,7 +6,7 @@ module Shazam(
     input [4:0] channel,
     output can_write_ram
 );
-    wire response_valid, response_startofpacket, response_endofpacket;
+    wire received_measurement;
     wire [11: 0] adc_measurements;
 
     wire pll_clk_10MHz;
@@ -29,14 +29,15 @@ module Shazam(
         .command_channel(channel),
         .command_ready(),
         .reset_sink_reset_n(~RESET),
-        .response_valid(response_valid),
-        .response_startofpacket(response_startofpacket),
-        .response_endofpacket(response_endofpacket),
+        .response_valid(received_measurement),
+        .response_startofpacket(),
+        .response_endofpacket(),
         .response_data(adc_measurements)
     );
 
     adc_measurements_into_ram_controller ADC_INTO_RAM (
         .adc_measurements(adc_measurements),
+        .received_measurement(received_measurement),
         .RESET(RESET),
         .CLOCK(CLOCK),
         .can_write_ram(can_write_ram)

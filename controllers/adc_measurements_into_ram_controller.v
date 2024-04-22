@@ -1,20 +1,19 @@
 module adc_measurements_into_ram_controller (
     input       [11: 0] adc_measurements,
+    input       received_measurement,
+    input       fft_finished,
     input       RESET,
     input       CLOCK,
     output reg  can_write_ram
 );
 
     reg [14:0] sample_count = 0;
-    reg [3:0] clock_cycles = 0;
-
+    
     always @(posedge CLOCK) begin
-        if(adc_measurements) begin
-            if(clock_cycles < 4'b1000) clock_cycles = clock_cycles + 1;
-            else clock_cycles = 4'b0000;
-
-            if(clock_cycles == 4'b1000) sample_count = sample_count + 1;
+        if(received_measurement == 1) begin
+            // in order for the 2^15 Fast Fourier Ttransform to work we need 2^15 data points => MAX {sample_count} = 15b'100000...0 
             if(sample_count == 15'b100000000000000) can_write_ram = 0;
+            else can_write_ram = 1;
         end
     end
 

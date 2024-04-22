@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EnsembleReport name="adc_core" kind="system" version="23.1" fabric="QSYS">
  <!-- Format version 23.1 991 (Future versions may contain additional information.) -->
- <!-- 2024.04.21.13:56:15 -->
+ <!-- 2024.04.22.18:27:49 -->
  <!-- A collection of modules and connections -->
  <parameter name="clockCrossingAdapter">
   <type>com.altera.sopcmodel.ensemble.EClockAdapter</type>
@@ -53,7 +53,7 @@
  </parameter>
  <parameter name="generationId">
   <type>int</type>
-  <value>1713696972</value>
+  <value>1713799657</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>true</visible>
@@ -592,7 +592,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="simfilename_ch0">
    <type>java.lang.String</type>
-   <value>C:/Users/ratas/apps/Shazam/adc-simulation-measurements.txt</value>
+   <value>C:/Users/makar/apps/Shazam/adc-simulation-measurements.txt</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -5300,5 +5300,5 @@ parameters are a RESULT of the module parameters. -->
   <version>23.1</version>
  </plugin>
  <reportVersion>23.1 991</reportVersion>
- <uniqueIdentifier>A8A15995788A0000018F004CA161</uniqueIdentifier>
+ <uniqueIdentifier>0A00270000020000018F066B7DDE</uniqueIdentifier>
 </EnsembleReport>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EnsembleReport name="adc_core" kind="adc_core" version="1.0" fabric="QSYS">
  <!-- Format version 23.1 991 (Future versions may contain additional information.) -->
- <!-- 2024.04.21.14:13:20 -->
+ <!-- 2024.04.22.18:27:37 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_GENERATION_ID">
   <type>java.lang.Integer</type>
-  <value>1713698000</value>
+  <value>1713799657</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
@@ -570,7 +570,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="simfilename_ch0">
    <type>java.lang.String</type>
-   <value>C:/Users/ratas/apps/Shazam/adc-simulation-measurements.txt</value>
+   <value>C:/Users/makar/apps/Shazam/adc-simulation-measurements.txt</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>

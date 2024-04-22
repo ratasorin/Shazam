@@ -1,5 +1,5 @@
 Info: Starting: Create simulation model
-Info: qsys-generate C:\Users\ratas\apps\Shazam\adc_core.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=C:\Users\ratas\apps\Shazam\adc_core\simulation --family="MAX 10" --part=10M50DAF484C6GES
+Info: qsys-generate C:\Users\makar\apps\Shazam\adc_core.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=C:\Users\makar\apps\Shazam\adc_core\simulation --family="MAX 10" --part=10M50DAF484C6GES
 Progress: Loading Shazam/adc_core.qsys
 Progress: Reading input file
 Progress: Adding modular_adc_0 [altera_modular_adc 23.1]
@@ -40,17 +40,17 @@ Info: adc_core: Done "adc_core" with 18 modules, 25 files
 Info: qsys-generate succeeded.
 Info: Finished: Create simulation model
 Info: Starting: Create Modelsim Project.
-Info: sim-script-gen --spd=C:\Users\ratas\apps\Shazam\adc_core\adc_core.spd --output-directory=C:/Users/ratas/apps/Shazam/adc_core/simulation/ --use-relative-paths=true
-Info: Doing: ip-make-simscript --spd=C:\Users\ratas\apps\Shazam\adc_core\adc_core.spd --output-directory=C:/Users/ratas/apps/Shazam/adc_core/simulation/ --use-relative-paths=true
-Info: Generating the following file(s) for RIVIERA simulator in C:/Users/ratas/apps/Shazam/adc_core/simulation/ directory:
+Info: sim-script-gen --spd=C:\Users\makar\apps\Shazam\adc_core\adc_core.spd --output-directory=C:/Users/makar/apps/Shazam/adc_core/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=C:\Users\makar\apps\Shazam\adc_core\adc_core.spd --output-directory=C:/Users/makar/apps/Shazam/adc_core/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for RIVIERA simulator in C:/Users/makar/apps/Shazam/adc_core/simulation/ directory:
 Info: 	aldec/rivierapro_setup.tcl
-Info: Generating the following file(s) for MODELSIM simulator in C:/Users/ratas/apps/Shazam/adc_core/simulation/ directory:
+Info: Generating the following file(s) for MODELSIM simulator in C:/Users/makar/apps/Shazam/adc_core/simulation/ directory:
 Info: 	mentor/msim_setup.tcl
-Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under C:/Users/ratas/apps/Shazam/adc_core/simulation/.
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under C:/Users/makar/apps/Shazam/adc_core/simulation/.
 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
 Info: Finished: Create Modelsim Project.
 Info: Starting: Create block symbol file (.bsf)
-Info: qsys-generate C:\Users\ratas\apps\Shazam\adc_core.qsys --block-symbol-file --output-directory=C:\Users\ratas\apps\Shazam\adc_core --family="MAX 10" --part=10M50DAF484C6GES
+Info: qsys-generate C:\Users\makar\apps\Shazam\adc_core.qsys --block-symbol-file --output-directory=C:\Users\makar\apps\Shazam\adc_core --family="MAX 10" --part=10M50DAF484C6GES
 Progress: Loading Shazam/adc_core.qsys
 Progress: Reading input file
 Progress: Adding modular_adc_0 [altera_modular_adc 23.1]
@@ -66,7 +66,7 @@ Info: qsys-generate succeeded.
 Info: Finished: Create block symbol file (.bsf)
 Info: 
 Info: Starting: Create HDL design files for synthesis
-Info: qsys-generate C:\Users\ratas\apps\Shazam\adc_core.qsys --synthesis=VERILOG --output-directory=C:\Users\ratas\apps\Shazam\adc_core\synthesis --family="MAX 10" --part=10M50DAF484C6GES
+Info: qsys-generate C:\Users\makar\apps\Shazam\adc_core.qsys --synthesis=VERILOG --output-directory=C:\Users\makar\apps\Shazam\adc_core\synthesis --family="MAX 10" --part=10M50DAF484C6GES
 Progress: Loading Shazam/adc_core.qsys
 Progress: Reading input file
 Progress: Adding modular_adc_0 [altera_modular_adc 23.1]

@@ -12,10 +12,10 @@ preplace inst adc_core.modular_adc_0.rst_inst -pg 1
 preplace inst adc_core.modular_adc_0.cb_inst -pg 1
 preplace inst adc_core.modular_adc_0.st_splitter_internal -pg 1
 preplace netloc EXPORT<net_container>adc_core</net_container>(SLAVE)adc_core.adc_pll_locked,(SLAVE)modular_adc_0.adc_pll_locked) 1 0 1 NJ
-preplace netloc EXPORT<net_container>adc_core</net_container>(SLAVE)adc_core.adc_pll_clock,(SLAVE)modular_adc_0.adc_pll_clock) 1 0 1 NJ
 preplace netloc EXPORT<net_container>adc_core</net_container>(SLAVE)modular_adc_0.clock,(SLAVE)adc_core.clock) 1 0 1 NJ
-preplace netloc EXPORT<net_container>adc_core</net_container>(SLAVE)modular_adc_0.reset_sink,(SLAVE)adc_core.reset_sink) 1 0 1 NJ
 preplace netloc EXPORT<net_container>adc_core</net_container>(SLAVE)adc_core.command,(SLAVE)modular_adc_0.command) 1 0 1 NJ
+preplace netloc EXPORT<net_container>adc_core</net_container>(SLAVE)modular_adc_0.adc_pll_clock,(SLAVE)adc_core.adc_pll_clock) 1 0 1 NJ
 preplace netloc EXPORT<net_container>adc_core</net_container>(MASTER)modular_adc_0.response,(MASTER)adc_core.response) 1 1 1 N
+preplace netloc EXPORT<net_container>adc_core</net_container>(SLAVE)adc_core.reset_sink,(SLAVE)modular_adc_0.reset_sink) 1 0 1 NJ
 levelinfo -pg 1 0 100 430
 levelinfo -hier adc_core 110 220 350

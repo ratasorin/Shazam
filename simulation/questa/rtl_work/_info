@@ -10,12 +10,12 @@ Z0 !s99 nomlopt
 !i10e 25
 !i10f 100
 cModel Technology
-Z1 dC:/Users/ratas/apps/Shazam/simulation/questa
+Z1 dC:/Users/makar/apps/Shazam/simulation/questa
 T_opt
-!s110 1713717269
-V2lFIO;W[]U[WHTW::9J;a3
+!s110 1713811540
+Vmk^`Q<5PfzVcbY60U=6FS1
 04 16 4 work shazam_testbench fast 0
-=1-a8a15995788a-66254014-3b7-5890
+=1-f4390935e961-6626b054-1e8-3210
 R0
 !s12b OEM100
 !s124 OEM10U58 
@@ -24,39 +24,39 @@ Z2 tCvgOpt 0
 n@_opt
 OL;O;2023.3;77
 vadc_measurements_into_ram_controller
-Z3 2C:/Users/ratas/apps/Shazam/main.v
-Z4 !s110 1713717267
+Z3 2C:/Users/makar/apps/Shazam/main.v
+Z4 !s110 1713811538
 !i10b 1
-!s100 6d<6VJGhUEPHDm`<;WVf31
-IzkoG=iLLBn4W?j8RRX0>h2
+!s100 MIfOLG=TL0LM]3PU<d9J:3
+IV?>?TWiGV:DBNzh6CPK692
 R1
-w1713709099
-8C:/Users/ratas/apps/Shazam/controllers/adc_measurements_into_ram_controller.v
-FC:/Users/ratas/apps/Shazam/controllers/adc_measurements_into_ram_controller.v
+w1713811519
+8C:/Users/makar/apps/Shazam/controllers/adc_measurements_into_ram_controller.v
+FC:/Users/makar/apps/Shazam/controllers/adc_measurements_into_ram_controller.v
 !i122 3
-L0 1 31
+L0 1 35
 Z5 VDg1SIo80bB@j0V0VzS_@n1
 Z6 OL;L;2023.3;77
 r1
 !s85 0
 31
-Z7 !s108 1713717267.000000
-Z8 !s107 C:/Users/ratas/apps/Shazam/controllers/adc_measurements_into_ram_controller.v|C:/Users/ratas/apps/Shazam/main.v|
-Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ratas/apps/Shazam|C:/Users/ratas/apps/Shazam/main.v|
+Z7 !s108 1713811538.000000
+Z8 !s107 C:/Users/makar/apps/Shazam/controllers/adc_measurements_into_ram_controller.v|C:/Users/makar/apps/Shazam/main.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/makar/apps/Shazam|C:/Users/makar/apps/Shazam/main.v|
 !i113 0
 Z10 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z11 !s92 -vlog01compat -work work +incdir+C:/Users/ratas/apps/Shazam -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 -vlog01compat -work work +incdir+C:/Users/makar/apps/Shazam -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R2
 vclk_pll
-2C:/Users/ratas/apps/Shazam/clk_pll/clk_pll.v
+2C:/Users/makar/apps/Shazam/clk_pll/clk_pll.v
 R4
 !i10b 1
 !s100 j7f^NJjPoQ50F5n;J72oH2
-IZ=hzMYo]:b_=aRCMJL2^Z1
+IkEUaNIiXRQ43NUkD^?ZVM3
 R1
-w1713710364
-8C:/Users/ratas/apps/Shazam/clk_pll/clk_pll.v
-FC:/Users/ratas/apps/Shazam/clk_pll/clk_pll.v
+Z12 w1713799118
+8C:/Users/makar/apps/Shazam/clk_pll/clk_pll.v
+FC:/Users/makar/apps/Shazam/clk_pll/clk_pll.v
 !i122 1
 L0 40 124
 R5
@@ -65,22 +65,22 @@ r1
 !s85 0
 31
 R7
-!s107 C:/Users/ratas/apps/Shazam/clk_pll/clk_pll.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ratas/apps/Shazam/clk_pll|C:/Users/ratas/apps/Shazam/clk_pll/clk_pll.v|
+!s107 C:/Users/makar/apps/Shazam/clk_pll/clk_pll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/makar/apps/Shazam/clk_pll|C:/Users/makar/apps/Shazam/clk_pll/clk_pll.v|
 !i113 0
 R10
-!s92 -vlog01compat -work work +incdir+C:/Users/ratas/apps/Shazam/clk_pll -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+C:/Users/makar/apps/Shazam/clk_pll -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R2
 vclk_pll_altpll
-2C:/Users/ratas/apps/Shazam/db/clk_pll_altpll.v
+2C:/Users/makar/apps/Shazam/db/clk_pll_altpll.v
 R4
 !i10b 1
 !s100 CWTRfnQBUeCTM<FzRZ=?I2
-Im8BXK5;Q44XJ[gAe0XLN93
+In6Gj3:zPFWEjimTf<i^`W3
 R1
-w1713710466
-8C:/Users/ratas/apps/Shazam/db/clk_pll_altpll.v
-FC:/Users/ratas/apps/Shazam/db/clk_pll_altpll.v
+w1713799166
+8C:/Users/makar/apps/Shazam/db/clk_pll_altpll.v
+FC:/Users/makar/apps/Shazam/db/clk_pll_altpll.v
 !i122 2
 L0 31 79
 R5
@@ -89,22 +89,22 @@ r1
 !s85 0
 31
 R7
-!s107 C:/Users/ratas/apps/Shazam/db/clk_pll_altpll.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ratas/apps/Shazam/db|C:/Users/ratas/apps/Shazam/db/clk_pll_altpll.v|
+!s107 C:/Users/makar/apps/Shazam/db/clk_pll_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/makar/apps/Shazam/db|C:/Users/makar/apps/Shazam/db/clk_pll_altpll.v|
 !i113 0
 R10
-!s92 -vlog01compat -work work +incdir+C:/Users/ratas/apps/Shazam/db -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+C:/Users/makar/apps/Shazam/db -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R2
 vram
-2C:/Users/ratas/apps/Shazam/ram/ram.v
+2C:/Users/makar/apps/Shazam/ram/ram.v
 R4
 !i10b 1
 !s100 0?Hl_Z]`e5d>YViaR[DL?3
-I[Q1ZYkGhmPKPkmBk2<3YD2
+I_7hRaX_LI?lKAUGZ4k>8m0
 R1
-w1713641872
-8C:/Users/ratas/apps/Shazam/ram/ram.v
-FC:/Users/ratas/apps/Shazam/ram/ram.v
+R12
+8C:/Users/makar/apps/Shazam/ram/ram.v
+FC:/Users/makar/apps/Shazam/ram/ram.v
 !i122 0
 L0 40 65
 R5
@@ -113,24 +113,24 @@ r1
 !s85 0
 31
 R7
-!s107 C:/Users/ratas/apps/Shazam/ram/ram.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ratas/apps/Shazam/ram|C:/Users/ratas/apps/Shazam/ram/ram.v|
+!s107 C:/Users/makar/apps/Shazam/ram/ram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/makar/apps/Shazam/ram|C:/Users/makar/apps/Shazam/ram/ram.v|
 !i113 0
 R10
-!s92 -vlog01compat -work work +incdir+C:/Users/ratas/apps/Shazam/ram -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+C:/Users/makar/apps/Shazam/ram -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R2
 vShazam
 R3
 R4
 !i10b 1
-!s100 TmI9[flLj4;zhC@JQ;?zB2
-IhF57Lk[OQKcH@WzgdFodH0
+!s100 OzPAMASi4KIMnL52ONMzk3
+IU5FG;`zbebG6gn7Ka[nd02
 R1
-w1713710892
-8C:/Users/ratas/apps/Shazam/main.v
-FC:/Users/ratas/apps/Shazam/main.v
+w1713811351
+8C:/Users/makar/apps/Shazam/main.v
+FC:/Users/makar/apps/Shazam/main.v
 !i122 3
-L0 3 44
+L0 3 45
 R5
 R6
 r1
@@ -145,15 +145,15 @@ R11
 R2
 n@shazam
 vshazam_testbench
-2C:/Users/ratas/apps/Shazam/simulation/questa/shazam.testbench.v
-!s110 1713717268
+2C:/Users/makar/apps/Shazam/simulation/questa/shazam.testbench.v
+!s110 1713811539
 !i10b 1
 !s100 MJLK@`Zaz00V3:<Ua1aJl3
-IZLBCih=1H1m6RiO?eGXH52
+IKDAM?m18>AVl6Gf;:@m]Q3
 R1
-w1713710451
-8C:/Users/ratas/apps/Shazam/simulation/questa/shazam.testbench.v
-FC:/Users/ratas/apps/Shazam/simulation/questa/shazam.testbench.v
+w1713799119
+8C:/Users/makar/apps/Shazam/simulation/questa/shazam.testbench.v
+FC:/Users/makar/apps/Shazam/simulation/questa/shazam.testbench.v
 !i122 4
 L0 3 26
 R5
@@ -161,10 +161,10 @@ R6
 r1
 !s85 0
 31
-!s108 1713717268.000000
-!s107 C:/Users/ratas/apps/Shazam/simulation/questa/shazam.testbench.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ratas/apps/Shazam/simulation/questa|C:/Users/ratas/apps/Shazam/simulation/questa/shazam.testbench.v|
+!s108 1713811539.000000
+!s107 C:/Users/makar/apps/Shazam/simulation/questa/shazam.testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/makar/apps/Shazam/simulation/questa|C:/Users/makar/apps/Shazam/simulation/questa/shazam.testbench.v|
 !i113 0
 R10
-!s92 -vlog01compat -work work +incdir+C:/Users/ratas/apps/Shazam/simulation/questa -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+C:/Users/makar/apps/Shazam/simulation/questa -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R2

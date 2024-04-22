@@ -211,7 +211,7 @@
   <parameter name="seq_order_slot_7" value="30" />
   <parameter name="seq_order_slot_8" value="30" />
   <parameter name="seq_order_slot_9" value="30" />
-  <parameter name="simfilename_ch0">C:/Users/ratas/apps/Shazam/adc-simulation-measurements.txt</parameter>
+  <parameter name="simfilename_ch0">C:/Users/makar/apps/Shazam/adc-simulation-measurements.txt</parameter>
   <parameter name="simfilename_ch1" value="" />
   <parameter name="simfilename_ch10" value="" />
   <parameter name="simfilename_ch11" value="" />
