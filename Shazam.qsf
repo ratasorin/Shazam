@@ -70,6 +70,17 @@ set_global_assignment -name EDA_TEST_BENCH_NAME shazam_testbench -section_id eda
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id shazam_testbench
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME shazam_testbench -section_id shazam_testbench
 set_global_assignment -name EDA_TEST_BENCH_FILE simulation/questa/shazam.testbench.v -section_id shazam_testbench
+
 set_global_assignment -name QIP_FILE clk_pll/clk_pll.qip
-set_global_assignment -name QIP_FILE clk_pll.qip
+
+set_global_assignment -name QIP_FILE clk_pll_100Mhz/clk_pll_100Mhz.qip
+
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+
+set_global_assignment -name QIP_FILE sdram/sdram_controller/Sdram_WR_FIFO.qip
+set_global_assignment -name QIP_FILE sdram/sdram_controller/Sdram_RD_FIFO.qip
+set_global_assignment -name SOURCE_FILE sdram/sdram_controller/Sdram_Params.v
+set_global_assignment -name VERILOG_FILE sdram/sdram_controller/Sdram_Control.v
+set_global_assignment -name VERILOG_FILE sdram/sdram_controller/sdr_data_path.v
+set_global_assignment -name VERILOG_FILE sdram/sdram_controller/control_interface.v
+set_global_assignment -name VERILOG_FILE sdram/sdram_controller/command.v
